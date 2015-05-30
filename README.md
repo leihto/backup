@@ -6,11 +6,17 @@ Tworzy ona backup bazy na podstawie wzorca (wszystkie bazy zawierające ciąg(..
 Konfiguracja:
 
 NAME='wojtus' #  Nazwa backupu (format $NAME-dd-mm-YY)
+
 DBUSER='root' #  Uzytkownik lokalnej bazy danych
+
 DBPASS='' #  Haslo do bazy danych
+
 PATTERN='wojtus_%' #  Wzorzec nazwy bazy danych (wyszukuje wszystkich baz zaczynajacych sie od podanej (% sluzy jako informacja gdzie jest ciag dalszy nazwy db))
+
 BACKUPDIR='/var/backups' #  Katalog w ktorym beda przetrzymywane backupy
+
 CURDIR='/home/wojtus' #  Katalog dla ktorego robimy backup (przed public_html)
+
 STOREDDAYS=3 #  Ile dni przechowywany jest backup
 
 
