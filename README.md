@@ -5,7 +5,6 @@ Tworzy ona backup bazy na podstawie wzorca (wszystkie bazy zawierające ciąg(..
 
 Konfiguracja:
 
-codesource
 NAME='wojtus' #  Nazwa backupu (format $NAME-dd-mm-YY)
 DBUSER='root' #  Uzytkownik lokalnej bazy danych
 DBPASS='' #  Haslo do bazy danych
@@ -17,7 +16,6 @@ STOREDDAYS=3 #  Ile dni przechowywany jest backup
 
 Przed użyciem skrypu należy nadać mu uprawnienia execute 
 
-codesource
 chmod +x ./backup.sh
 
 
